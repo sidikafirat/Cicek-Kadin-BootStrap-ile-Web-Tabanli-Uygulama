@@ -6,7 +6,7 @@
 dbstorage21360859044.sql dosyasında yazan kodları oluşturduğunuz database sql kod yazma yerine yapıştırıp çalıştırın. Bu sayede gerekli tablolar oluşmuş olacak.
 * Repoda olan .php uzantılı dosyaları ve videoyu da htdocs klasörüne koyun ve database bağlanma kısımlarına $mysqli = mysqli_connect("localhost", "root", "", "webproje2_db"); gibi değişiklikleri yaparsanız kendi localinizde bu websitesini kullanabileceksiniz.
 
-## Kullanım
+## Site Kullanımı
 * Öncelikle web siteme http://95.130.171.20/~st21360859044 adresinden ulaşabilirsiniz. 
 * Sitenin sağ üst köşesinden 'Oturum Aç' butonuna tıklayarak sisteme giriş yapabilirsiniz. Eğer üyeliğiniz yoksa 'Kaydol' butonundan kaydolup sonrasında giriş yapabilirsiniz.
 * Menü Kısmından 'Çiçek İşlemleri' kısmından çiçek bilgisi ekleyebilirsiniz.
