@@ -16,31 +16,6 @@
 * Ben kimim kısmından kullanıcı kendi profil bilgilerini görüntüleyebilir.
 * İletişim kısmında Linkedin ve Github linkim bulunmaktadır.
 * Sağ alt köşede bulunan 'Github' butonundan siteme ait kodların bulunduğu github profilime ulaşabilirsiniz.
-## SQL Kodlarım
-CREATE TABLE `users` (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  `first_name` VARCHAR(45) NOT NULL,
-  `last_name` VARCHAR(45) NOT NULL,
-  `gender` ENUM('Male', 'Female', 'Other') NOT NULL,
-  `password` VARCHAR(255) NOT NULL,
-  `email` VARCHAR(45) NOT NULL,
-  `occupation` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE INDEX `email_UNIQUE` (`email` ASC) );
-
-  CREATE TABLE `flowers` (
-  `flower_id` INT NOT NULL AUTO_INCREMENT,
-  `users_id` INT NOT NULL,
-  `flower_name` VARCHAR(45) NOT NULL,
-  `stock` INT NOT NULL,
-  `color` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`flower_id`),
-  INDEX `fk_flowers_users_idx` (`users_id` ASC) ,
-  CONSTRAINT `fk_flowers_users`
-    FOREIGN KEY (`users_id`)
-    REFERENCES `mydb`.`users` (`id`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION);
 
 ## Ekran Görüntüleri
 >Anasayfam <br>
