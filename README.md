@@ -18,6 +18,10 @@ dbstorage21360859044.sql dosyasında yazan kodları oluşturduğunuz database sq
 * İletişim kısmında Linkedin ve Github linkim bulunmaktadır.
 * Sağ alt köşede bulunan 'Github' butonundan siteme ait kodların bulunduğu github profilime ulaşabilirsiniz.
 
+## Linkler
+* Youtube Site Kullanımı: https://youtu.be/PaleC69wxb8
+* Web sitem: http://95.130.171.20/~st21360859044
+
 ## Ekran Görüntüleri
 >Anasayfam <br>
 ![Ekran görüntüsü 2024-05-25 184127](https://github.com/sidikafirat/Cicek-Kadin-BootStrap-ile-Web-Tabanli-Uygulama/assets/121318380/052eabf1-8f04-4d11-8766-cfd8c5f59105)
